@@ -15,9 +15,9 @@ function App() {
    const {pathname} = useLocation();
    const [characters, setCharacters] = useState([]);
    const navigate = useNavigate();
-const [access, setAccess] = useState(false);
-const EMAIL = '';
-const PASSWORD = '';
+   const [access, setAccess] = useState(false);
+   const EMAIL = '';
+   const PASSWORD = '';
 
 function login(userData) {
    if (userData.password === PASSWORD && userData.email === EMAIL) {
